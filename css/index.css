@@ -106,3 +106,59 @@ img.vector-dot {
     border-radius: 16px;
     color: #fff;
 }
+@media(max-width: 991px) {
+    nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .nav-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-items .nav-item {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .nav-items .nav-item:last-child {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    /* _____________________nav ends______________ */
+        .intro-section {
+            flex-direction: column-reverse;
+            align-items: center
+        }
+    
+        [alt="intro-img"] {
+            width: 400px;
+        }
+    
+        .intro-section>div {
+            flex: 1;
+        }
+    
+        .left-section {
+            width: 100%;
+            position: relative;
+            top: 0;
+        }
+    
+        .left-section h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+    
+        .learn-more-btn {
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+}
